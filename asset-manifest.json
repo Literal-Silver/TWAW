@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/TWAW/static/css/main.2cce8147.chunk.css",
-    "main.js": "/TWAW/static/js/main.dd2be22c.chunk.js",
-    "main.js.map": "/TWAW/static/js/main.dd2be22c.chunk.js.map",
+    "main.js": "/TWAW/static/js/main.13faf276.chunk.js",
+    "main.js.map": "/TWAW/static/js/main.13faf276.chunk.js.map",
     "runtime~main.js": "/TWAW/static/js/runtime~main.f2cd8780.js",
     "runtime~main.js.map": "/TWAW/static/js/runtime~main.f2cd8780.js.map",
-    "static/js/2.b41502e9.chunk.js": "/TWAW/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/TWAW/static/js/2.b41502e9.chunk.js.map",
+    "static/js/2.37447f44.chunk.js": "/TWAW/static/js/2.37447f44.chunk.js",
+    "static/js/2.37447f44.chunk.js.map": "/TWAW/static/js/2.37447f44.chunk.js.map",
     "index.html": "/TWAW/index.html",
-    "precache-manifest.75577150862a2ce5b7356839cefded43.js": "/TWAW/precache-manifest.75577150862a2ce5b7356839cefded43.js",
+    "precache-manifest.d001bea3f8182d85d90c232d9ae5a888.js": "/TWAW/precache-manifest.d001bea3f8182d85d90c232d9ae5a888.js",
     "service-worker.js": "/TWAW/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/TWAW/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/TWAW/static/media/logo.5d5d9eef.svg"
+    "static/css/main.2cce8147.chunk.css.map": "/TWAW/static/css/main.2cce8147.chunk.css.map"
   }
 }
