@@ -7,12 +7,21 @@ import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import FormControl from "react-bootstrap/FormControl";
 import Form from "react-bootstrap/Form";
+import logo from "./logo.png";
 
 function App() {
   return (
     <div className="App">
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">Texas Weight and Wellness</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <img
+            alt=""
+            src={logo}
+            width="60"
+            height="60"
+            className="d-inline-block align-top"
+          />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
