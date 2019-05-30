@@ -33,7 +33,11 @@ jobs:
           path: test-results.xml
       - deploy:
           name: deploy to GH-Pages
-          command: npm run deploy
+          command: |
+            git config credential.helper 'cache --timeout=120'
+            git config user.email "usscag@gmail.com"
+            git config user.name "Deployment Bot"
+            npm run deploy
 
 workflows:
   version: 2
