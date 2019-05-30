@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Button from "react-bootstrap/Button";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
@@ -8,7 +9,7 @@ class NavbarTWAW extends Component {
   render() {
     return (
       <div className="Navbar">
-        <Navbar bg="light" expand="lg" fixed="top">
+        <Navbar bg="light" variant="primary" expand="lg" fixed="top">
           <Navbar.Brand href="#home">
             <img
               alt=""
@@ -35,6 +36,12 @@ class NavbarTWAW extends Component {
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
+            <Button
+              href="mailto: rebecca.yale.md@texasweightandwellness.com"
+              variant="outline-primary"
+            >
+              Contact Us Here!
+            </Button>
           </Navbar.Collapse>
         </Navbar>
       </div>
