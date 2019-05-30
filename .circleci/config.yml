@@ -4,9 +4,9 @@ jobs:
     docker:
       - image: circleci/node:lts
     steps:
-    - add_ssh_keys:
+      - add_ssh_keys:
         fingerprints:
-            - "76:34:d3:1c:df:83:8d:18:29:21:71:42:57:b0:a0:23"
+          - "76:34:d3:1c:df:83:8d:18:29:21:71:42:57:b0:a0:23"
       - checkout - run: name: update-npm
           command: "sudo npm install -g npm@latest"
       - restore_cache:
