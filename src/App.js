@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import star from "../img/star.png";
 import "./App.css";
 import Button from "react-bootstrap/Button";
-import Navbar from "Components/Navbar/Navbar";
+import NavbarTWAW from "Components/Navbar/NavbarTWAW";
 import Footer from "Components/Footer/Footer";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
+        <NavbarTWAW />
         <header className="App-header">
           <img src={star} className="App-logo" alt="logo" />
           <p>
