@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../../img/black_logo.png";
 
-class NavbarTWAW extends React.Component {
+class NavbarTWAW extends Component {
   render() {
     return (
       <div className="Navbar">
@@ -14,8 +14,8 @@ class NavbarTWAW extends React.Component {
             <img
               alt=""
               src={logo}
-              width="250"
-              height="250"
+              width="220"
+              height="80"
               className="d-inline-block align-top"
             />
           </Navbar.Brand>

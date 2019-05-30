@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import star from "../img/star.png";
+import star from "./img/star.png";
 import "./App.css";
 import Button from "react-bootstrap/Button";
-import NavbarTWAW from "Components/Navbar/NavbarTWAW";
-import Footer from "Components/Footer/Footer";
+import NavbarTWAW from "./Components/Navbar/NavbarTWAW";
+//import Footer from "Components/Footer/Footer";
 
 class App extends Component {
   render() {
@@ -27,7 +27,7 @@ class App extends Component {
         <Button variant="success" onClick={() => alert("YEET!")}>
           Yeet
         </Button>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
