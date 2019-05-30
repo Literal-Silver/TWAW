@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import logo from "../../img/black_logo.png";
+import logo from "../../img/twawlogo.png";
 
 class NavbarTWAW extends Component {
   render() {
@@ -24,7 +24,7 @@ class NavbarTWAW extends Component {
             <Nav className="mr-auto">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#link">Food Protocols</Nav.Link>
-              <NavDropdown title="Contact Us" id="basic-nav-dropdown">
+              <NavDropdown title="About Us" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">
                   Set up an appointment
                 </NavDropdown.Item>
@@ -38,7 +38,7 @@ class NavbarTWAW extends Component {
             </Nav>
             <Button
               href="mailto: rebecca.yale.md@texasweightandwellness.com"
-              variant="outline-primary"
+              variant="outline-danger"
             >
               Contact Us Here!
             </Button>
