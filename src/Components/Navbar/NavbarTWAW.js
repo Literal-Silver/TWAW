@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Button from "react-bootstrap/Button";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
@@ -14,7 +13,7 @@ class NavbarTWAW extends Component {
             <img
               alt=""
               src={logo}
-              width="220"
+              width="230"
               height="80"
               className="d-inline-block align-top"
             />
@@ -36,7 +35,6 @@ class NavbarTWAW extends Component {
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
-            <Button variant="outline-success">Search</Button>
           </Navbar.Collapse>
         </Navbar>
       </div>
