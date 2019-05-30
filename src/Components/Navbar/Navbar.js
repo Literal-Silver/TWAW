@@ -7,7 +7,7 @@ import FormControl from "react-bootstrap/FormControl";
 import Form from "react-bootstrap/Form";
 import logo from "../../img/black_logo.png";
 
-class Navbar extends React.Component {
+class NavbarTWAW extends React.Component {
   render() {
     return (
       <div className="Navbar">
@@ -38,8 +38,7 @@ class Navbar extends React.Component {
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
-              <Button variant="outline-success">Search</Button>
-            </Form>
+            <Button variant="outline-success">Search</Button>
           </Navbar.Collapse>
         </Navbar>
       </div>
@@ -47,4 +46,4 @@ class Navbar extends React.Component {
   }
 }
 
-export default Navbar;
+export default NavbarTWAW;
