@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e52e041ba6b35eb39fb74f04a6fa208",
+    "revision": "354b6c56099c7ca3f9091d1aae75e1c8",
     "url": "/TWAW/index.html"
   },
   {
-    "revision": "2affa6d1c8f662801825",
+    "revision": "f142e1cff909f091886d",
     "url": "/TWAW/static/css/main.b3db6ef8.chunk.css"
   },
   {
@@ -12,15 +12,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TWAW/static/js/2.79590ce0.chunk.js"
   },
   {
-    "revision": "2affa6d1c8f662801825",
-    "url": "/TWAW/static/js/main.9fc669ed.chunk.js"
+    "revision": "f142e1cff909f091886d",
+    "url": "/TWAW/static/js/main.1d97bb23.chunk.js"
   },
   {
     "revision": "217185f98fa7ae30f1ad",
     "url": "/TWAW/static/js/runtime~main.f2cd8780.js"
   },
   {
-    "revision": "73e76b86f0d28a4903010ab88eee5be6",
-    "url": "/TWAW/static/media/black_logo.73e76b86.png"
+    "revision": "5cf6db065a82d29246d5161129a2896c",
+    "url": "/TWAW/static/media/twawlogo.5cf6db06.png"
   }
 ]);
