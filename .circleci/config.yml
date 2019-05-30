@@ -1,0 +1,49 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:lts
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "76:34:d3:1c:df:83:8d:18:29:21:71:42:57:b0:a0:23"
+      - checkout
+      - run:
+          name: update-npm
+          command: "sudo npm install -g npm@latest"
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: install-npm-wee
+          command: npm install
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+      - run:
+          name: test
+          command: npm test
+      - store_artifacts:
+          path: test-results.xml
+          prefix: tests
+      - store_artifacts:
+          path: coverage
+          prefix: coverage
+      - store_test_results:
+          path: test-results.xml
+      - deploy:
+          name: deploy to GH-Pages
+          command: |
+            git config credential.helper 'cache --timeout=120'
+            git config user.email "usscag@gmail.com"
+            git config user.name "Deployment Bot"
+            npm run deploy
+
+workflows:
+  version: 2
+  main:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: master
