@@ -8,12 +8,14 @@
 - [ ] Basic SEO
 - [ ] Basic tests
 - [ ] Setup CICD
+- [ ] V I M A D V E N T U R E S
 
 ## Navbar
 
 - [ ] Setup Routing
 - [x] Remove Search bar?
-- [ ] Add Email link
+- [x] Add Email link
+- [ ] Turn Email iink into form
 
 ## Content
 
