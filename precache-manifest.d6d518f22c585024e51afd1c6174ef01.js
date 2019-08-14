@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4334d8aa46a29614c63c29f9e7921677",
+    "revision": "7c6d0fd1887e248877385b3ddadfadce",
     "url": "/TWAW/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TWAW/static/css/2.d1b6ea42.chunk.css"
   },
   {
-    "revision": "dc4a30cece9a6a55970a",
+    "revision": "d12686906c34c67fa3ec",
     "url": "/TWAW/static/css/main.d5424872.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TWAW/static/js/2.e8d076ef.chunk.js"
   },
   {
-    "revision": "dc4a30cece9a6a55970a",
-    "url": "/TWAW/static/js/main.39b11ff2.chunk.js"
+    "revision": "d12686906c34c67fa3ec",
+    "url": "/TWAW/static/js/main.948fc0ba.chunk.js"
   },
   {
     "revision": "217185f98fa7ae30f1ad",
