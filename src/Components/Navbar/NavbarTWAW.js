@@ -37,7 +37,8 @@ class NavbarTWAW extends Component {
               </NavDropdown>
             </Nav>
             <Button
-              href="mailto: rebecca.yale.md@texasweightandwellness.com"
+              onClick="location.href='http://www.texasweightandwellness/contactus.com'"
+              type="button"
               variant="outline-danger"
             >
               Contact Us Here!
