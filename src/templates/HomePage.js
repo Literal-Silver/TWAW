@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
-import TWAWCalendar from '../components/Calendar'
+// import TWAWCalendar from '../components/Calendar'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
@@ -19,7 +19,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
     <section className="section">
       <div className="container">
         <Content source={body} />
-        <TWAWCalendar />
+        {/* <TWAWCalendar /> */}
       </div>
     </section>
   </main>
