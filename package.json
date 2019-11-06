@@ -1,9 +1,8 @@
 {
   "name": "twaw",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
   "description": "An opinionated starter project for creating lightning-fast websites with Gatsby v2 and Netlify CMS v2",
-  "version": "2.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/thriveweb/yellowcake"
@@ -46,9 +45,7 @@
     "react-markdown": "^4.2.2",
     "react-photoswipe": "^1.3.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
@@ -58,10 +55,18 @@
     "clean": "rm -rf .cache public",
     "serve": "gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
+    "lint": "eslint --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext jsx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
     "del-cli": "^3.0.0",
-    "prettier": "^1.18.2"
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.7.2"
   }
 }
