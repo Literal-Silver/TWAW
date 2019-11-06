@@ -1,8 +1,10 @@
-siteTitle: Yellow Cake
-siteUrl: 'https://yellowcake.netlify.com'
+siteTitle: Texas Weight and Wellness
+siteUrl: 'https://twaw.netlify.com'
 siteDescription: >-
-  A starter project for creating lightning-fast websites with Gatsby v2 Netlify
-  CMS v2 and Uploadcare media library.
+  Texas Weight and Wellness, PLLC is Authorized to Use the
+  Ideal Protein Weight Loss Protocol and Products. The testimonials on this
+  website are those of the individual that is identified, you should not
+  necessarily expect to receive these results.
 socialMediaCard:
   image: 'https://ucarecdn.com/fcc8d148-a9a8-42ee-a793-0f12b1437f61/'
 googleTrackingId: 'UA-133175780-1'
