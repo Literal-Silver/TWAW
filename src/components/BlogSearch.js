@@ -7,7 +7,7 @@ export default ({ pageCount }) => {
   return (
     <Location>
       {({ location }) => {
-        let search = qs.parse(location.search.replace('?', ''))
+        const search = qs.parse(location.search.replace('?', ''))
 
         return (
           <input

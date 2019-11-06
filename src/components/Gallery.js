@@ -62,7 +62,7 @@ export default class Gallery extends Component {
       maxCount = images.length
     let loopCount = 1
 
-    for (let i in images) {
+    for (const i in images) {
       if (this.getImageInfo(images[i], i)) {
         this.setState({ loaded: loopCount === maxCount })
         loopCount++
@@ -74,39 +74,37 @@ export default class Gallery extends Component {
     const { images } = this.props
     return (
       <Fragment>
-        {images &&
-          images.length > 0 && (
-            <div className="Gallery">
-              {images.map((image, index) => (
-                <figure
-                  className="Gallery--Item"
-                  key={_kebabCase(image.alt) + '-' + index}
-                  onClick={() => this.isOpen(true, index)}
-                >
-                  <div>
-                    <Image
-                      resolutions="small"
-                      src={image.image}
-                      alt={image.alt}
-                    />
-                  </div>
-                  {image.title && <figcaption>{image.title}</figcaption>}
-                </figure>
-              ))}
-            </div>
-          )}
-        {this.state.loaded &&
-          this.state.sliderImages.length > 0 && (
-            <PhotoSwipe
-              isOpen={this.state.isOpen}
-              items={this.state.sliderImages}
-              options={{
-                index: this.state.index,
-                history: false
-              }}
-              onClose={() => this.isOpen(false)}
-            />
-          )}
+        {images && images.length > 0 && (
+          <div className="Gallery">
+            {images.map((image, index) => (
+              <figure
+                className="Gallery--Item"
+                key={_kebabCase(image.alt) + '-' + index}
+                onClick={() => this.isOpen(true, index)}
+              >
+                <div>
+                  <Image
+                    resolutions="small"
+                    src={image.image}
+                    alt={image.alt}
+                  />
+                </div>
+                {image.title && <figcaption>{image.title}</figcaption>}
+              </figure>
+            ))}
+          </div>
+        )}
+        {this.state.loaded && this.state.sliderImages.length > 0 && (
+          <PhotoSwipe
+            isOpen={this.state.isOpen}
+            items={this.state.sliderImages}
+            options={{
+              index: this.state.index,
+              history: false
+            }}
+            onClose={() => this.isOpen(false)}
+          />
+        )}
       </Fragment>
     )
   }

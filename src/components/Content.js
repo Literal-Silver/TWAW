@@ -19,7 +19,7 @@ const encodeMarkdownURIs = (source = '') => {
 const withContentImages = source => {
   const images = source.match(/<img(.*?)\\?>/gim)
 
-  for (let i in images) {
+  for (const i in images) {
     const src = /src="(.*?)"/g.exec(images[i]),
       alt = /alt="(.*?)"/g.exec(images[i]),
       title = /title="(.*?)"/g.exec(images[i])
